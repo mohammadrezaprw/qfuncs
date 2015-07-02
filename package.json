@@ -1,0 +1,20 @@
+{
+  "name": "qfuncs",
+  "version": "0.0.0",
+  "description": "manage and que the functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "qfuncs"
+  },
+  "keywords": [
+    "node",
+    "parallel",
+    "functions"
+  ],
+  "author": "Mohammadreza Lotfi",
+  "license": "BSD-2-Clause"
+}
