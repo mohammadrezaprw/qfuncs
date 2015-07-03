@@ -11,8 +11,9 @@ var data = [18,4,16,24,3,8,45,3,12], sum = 0;
 
 //maxTasks set to 4, its mean that we have 4 running functions at one time.
 
-qfuncs(data, 4, function(item) {
-  sum += item
+qfuncs(data, 4, function(item,nextp) {
+  sum += item;
+  nextp();
 }, function(res) {
   console.log(sum)
 });
